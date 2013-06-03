@@ -1,0 +1,97 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+
+a,
+a:link{
+color: #0c73c0;
+text-decoration: underline;
+}
+
+body{
+line-height: 165%;
+background: #f0f0f0 url("../img/device.png") left top no-repeat;
+border: 4px solid #446432;
+}
+
+input{
+padding: 4px;
+font-size: 110%;
+}
+
+select optgroup{
+font-style: normal;
+}
+
+select option{
+padding: 4px;
+}
+
+.hide{
+display: none;
+}
+
+div.shots{
+position: absolute;
+top: 184px;
+}
+
+div.shots#iphone{left: 30px;}
+div.shots#xperia{left: 264px;}
+div.shots#nexus{left: 505px;}
+
+div.shots div.shot{
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+div.shots#iphone div.shot{
+width: 178px;
+height: 232px;
+}
+
+div.shots#xperia div.shot{
+width: 184px;
+height: 314px;
+}
+
+div.shots#nexus div.shot{
+width: 208px;
+height: 328px;
+}
+
+div.shots div.shot img{
+display: block;
+}
+
+div#filelist{
+position: absolute;
+top: 70px;
+left: 800px;
+width: 300px;
+}
+
+div#filelist > select#page{
+background-color: #eee;
+width: 250px;
+border: 1px solid #ccc;
+height: 480px;
+}
+
+div#error{
+line-height: 140%;
+position: absolute;
+background: black;
+font-weight: bold;
+color: white;
+opacity: 0.85;
+font-size: 250%;
+text-align: center;
+border: 2px inset red;
+box-shadow: 2px 2px 8px black;
+top: 45%;
+left: 5%;
+padding: 5%;
+width: 80%;
+}

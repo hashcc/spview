@@ -1,0 +1,32 @@
+div#header,
+div#article{
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+}
+
+div#header{
+position: static;
+border-bottom: 5px solid #3a5b28;
+}
+
+div#nav{
+position: static;
+width: auto;
+box-shadow : none;
+opacity: 1.0;
+}
+
+div#nav div#toc{
+height: auto;
+}
+
+div#article{
+padding: 0px 30px 10px 30px;
+margin: 0px 0px 0px 0px;
+border: none;
+}
+
+h1{
+text-shadow: none;
+padding-left: 10px;
+}

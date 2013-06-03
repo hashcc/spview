@@ -1,0 +1,31 @@
+/*
+
+html body{
+background: white none;
+}
+
+html div#article,
+html div#shots{
+margin: 0px;
+}
+
+html div.shot{
+width: 100%;
+}
+
+html div.shot div{
+width: 100%;
+height: auto;
+padding: 0px;
+margin: 0px;
+border: none;
+overflow: auto;
+}
+
+html #statusbar,
+html #toolbar,
+html #filelist{
+display: none;
+}
+
+*/
